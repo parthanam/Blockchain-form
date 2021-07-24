@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form">
+            <h1 class="main_heading">SKINCARE</h1>
+            <p class="Heading">With Blockchain we secure your data, Select private and public for the data you are comfortable sharing with us.</p>
+            <input type="text" name="first" required placeholder="First Name*">
+            <input id="name_private" type="radio" name="public/private_name">
+            <label for="name_private">Private</label>
+            <input id="name_public" type = "radio" name="public/private_name">
+            <label for="name_public" >Public</label>
+            <br>
+            <input type="text" name="last" required placeholder="Last Name*">
+            <select name="looking" id="looking" required placeholder="Gender*">
+                <option value="" disabled selected>Gender*</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <input id="gender_private" type="radio" name="public/private_gender">
+            <label for="gender_private">Private</label>
+            <input id="gender_public" type = "radio" name="public/private_gender">
+            <label for="gender_public" >Public</label>
+
+            <input type="date" required placeholder="Date of Birth*">
+            <input id="dob_private" type="radio" name="public/private_dob">
+            <label for="dob_private">Private</label>
+            <input id="dob_public" type = "radio" name="public/private_dob">
+            <label for="dob_public" >Public</label>
+
+            <input type="email" required placeholder="Email Address*">
+            <input id="email_private" type="radio" name="public/private_email">
+            <label for="email_private">Private</label>
+            <input id="email_public" type = "radio" name="public/private_email">
+            <label for="email_public" >Public</label>
+
+            <input type="tel" required placeholder="Mobile Number*">
+            <input id="tel_private" type="radio" name="public/private_tel">
+            <label for="tel_private">Private</label>
+            <input id="tel_public" type = "radio" name="public/private_tel">
+            <label for="tel_public" >Public</label>
+
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="History of skin diseases if any"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
